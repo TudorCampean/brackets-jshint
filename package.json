@@ -14,5 +14,6 @@
     "jshint",
     "lint"
   ],
-  "license": "MIT",
+  "repository": "https://github.com/TudorCampean/brackets-jshint",
+  "license": "MIT"
 }
