@@ -1,0 +1,25 @@
+{
+  "name": "brackets-jshint",
+  "version": "0.0.1",
+  "authors": [
+    "TudorCampean"
+  ],
+  "description": "JsHint support for brackets",
+  "main": "main.js",
+  "keywords": [
+    "brackets",
+    "jshint",
+    "lint"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jshint": "~2.4.4"
+  }
+}
