@@ -1,6 +1,6 @@
 {
   "name": "brackets-jshint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JsHint support for Brackets",
   "authors": [
     "TudorCampean"

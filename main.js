@@ -27,7 +27,9 @@ define(function (require, exports, module) {
       }, {});
     JSHINT(text, config.options, config.globals);
     return {
-      errors: _.map(JSHINT.errors, function (error) {
+      errors: _.map(_.filter(JSHINT.errors, function (error) {
+        return error !== null;
+      }), function (error) {
         var errorMessage = {};
         errorMessage.type = error.type === "warning" ? CodeInspection.Type.WARNING : CodeInspection.Type.ERROR;
         errorMessage.message = error.reason + " (" + error.code + ")";
